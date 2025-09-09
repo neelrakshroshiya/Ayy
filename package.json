@@ -1,0 +1,18 @@
+{
+  "name": "littleai",
+  "version": "1.0.0",
+  "description": "AI app using Gemini",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express-rate-limit": "^6.7.0",
+    "@google/generative-ai": "^0.21.0"
+  }
+}
